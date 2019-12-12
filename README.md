@@ -11,6 +11,7 @@ https://kafka.apache.org/documentation/#quickstart
 # KafkaTool (Para acessar mensagens)
 http://www.kafkatool.com/
 
-
+# Passo a passo para configurar kafka no seu projeto 
+https://www.baeldung.com/spring-kafka
 
 
