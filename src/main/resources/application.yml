@@ -2,5 +2,7 @@ netshoes:
   kafka:
     config:
       bootstrapAddress: localhost:9092
+      group: ORDER
+      offsetConfig: earliest #latest
 
 

@@ -12,4 +12,8 @@ import org.springframework.context.annotation.Configuration;
 public class KafkaTopicConfigProperties {
 
     private String bootstrapAddress;
+
+    private String group;
+
+    private String offsetConfig;
 }
