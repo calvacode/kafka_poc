@@ -6,12 +6,13 @@ Projeto utilizado na apresentação do kafka ao time
   
   
   Para executar o projeto, importe como um projeto MAVEN em sua IDE
+  
     - O primeiro passo é subir o Zookeeper e depois o kafka 
     - A porta configurada no yml deste projeto para conectar ao Kafka é a 9092 (padrão do Kafka)
     - Ao subir o projeto pela primeira vez ele irá conectar ao Kafka, criará um topic chamado example_topic
       - Após o projeto iniciar, há um evento na class TestProducer que envia uma msg ao topic criado (example_topic)
       - A class OrderConsumer possui um listener no mesmo topic (example_topic) cuja a implementação é ler e "imprimir" a msg no console
-      -No yml, há uma configuração chamada "offsetConfig":  onde inserindo "earliest" o consumer irá consumir todas as msg do topic desde o inicio e "latest" o consumer irá ler a partir da ultima msg.
+      - No yml, há uma configuração chamada "offsetConfig":  onde inserindo "earliest" o consumer irá consumir todas as msg do topic desde o inicio e "latest" o consumer irá ler a partir da ultima msg.
 
 
 # Download Kafka
