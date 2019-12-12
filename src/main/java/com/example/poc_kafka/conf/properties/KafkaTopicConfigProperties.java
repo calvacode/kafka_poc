@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 @Getter
 @Setter
 @Configuration
-@ConfigurationProperties(prefix = "netshoes.kafka.config")
+@ConfigurationProperties(prefix = "example.kafka.config")
 public class KafkaTopicConfigProperties {
 
     private String bootstrapAddress;
