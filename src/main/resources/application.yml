@@ -1,0 +1,6 @@
+netshoes:
+  kafka:
+    config:
+      bootstrapAddress: localhost:9092
+
+
