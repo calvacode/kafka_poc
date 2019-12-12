@@ -7,7 +7,7 @@ Projeto utilizado na apresentação do kafka ao time
   
   Para executar o projeto, importe como um projeto MAVEN em sua IDE
   
-    - O primeiro passo é subir o Zookeeper e depois o kafka 
+    - O primeiro passo é subir o Zookeeper e depois o kafka (conforme QuickStart abaixo)
     - A porta configurada no yml deste projeto para conectar ao Kafka é a 9092 (padrão do Kafka)
     - Ao subir o projeto pela primeira vez ele irá conectar ao Kafka, criará um topic chamado example_topic
       - Após o projeto iniciar, há um evento na class TestProducer que envia uma msg ao topic criado (example_topic)
