@@ -4,5 +4,6 @@ example:
       bootstrapAddress: localhost:9092
       group: ORDER
       offsetConfig: earliest #latest
+      topicName: example_topic
 
 

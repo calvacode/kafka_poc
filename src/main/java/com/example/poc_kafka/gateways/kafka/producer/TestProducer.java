@@ -8,13 +8,13 @@ import org.springframework.stereotype.Component;
 
 @Component
 @RequiredArgsConstructor
-public class TesteProducer {
+public class TestProducer {
 
     private final OrderProducer orderProducer;
 
     @EventListener(ApplicationReadyEvent.class)
     public void teste(){
         final OrderJson orderJson = OrderJson.builder().amount(9000L).orderId("123456").build();
-//        orderProducer.publish(orderJson);
+        orderProducer.publish(orderJson);
     }
 }

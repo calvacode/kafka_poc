@@ -16,4 +16,6 @@ public class KafkaTopicConfigProperties {
     private String group;
 
     private String offsetConfig;
+
+    private String topicName;
 }
